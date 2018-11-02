@@ -8,10 +8,37 @@ body {
   padding: 10px;
    border: 1px solid #ccc;
 }
+
 .card-title {
   margin: 0;
   font-size: 1.875rem;
 }
+
 .card-picture {
   padding: 5px 0;
+}
+
+.card-content {
+  margin: 0;
+  padding: 10px;
+  font-size: 0.813rem;
+  border: 1px solid #ccc;
+}
+
+.card-content .card-info {
+  margin: 0;
+}
+
+.card-details {
+  padding: 0;
+  list-style: none;
+}
+
+.card-details .item {
+  font-style: italic;
+}
+
+.card-details .label {
+  font-weight: bold;
+  font-style: normal;
 }
